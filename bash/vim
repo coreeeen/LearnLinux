@@ -1,0 +1,19 @@
+How to edit a file on Linux with Vim: Program Commands
+===========================
+
+| command | what it means | what it does | how to use it
+----------|---------------|--------------|--------------
+vim | linux text editor | opens a particular file in the text editor | vim myfile.txt
+:q  | quit              | quits vim without saving                   | :q (when inside vim)
+:wq | write and quit    | saves and quits current vim file           | :wq (when inside vim)
+:e  | edit              | edits the current file                     | :e (when inside vim)
+
+How to edit a file on Linux with Vim: Editing Commands (:e)
+===========================
+| command | what it does
+-------------------------
+a   | insert text after cursor
+A   | insert text at the end of this line
+i   | insert text before the cursor
+x   | delete characters after cursor
+R   | replace character currently selected
